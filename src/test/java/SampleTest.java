@@ -7,7 +7,7 @@ class SampleTest {
     @Test
     void openGoogle() {
         System.setProperty("webdriver.chrome.driver", "C:/Program Files/ChromeDriver/chrome.exe");
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver();//
         try {
             driver.get("https://www.google.com");
             System.out.println("Title: " + driver.getTitle());
